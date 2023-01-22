@@ -618,6 +618,39 @@ button:hover img {
     .item-short-info-profession {
         font-size: 30px;
     }
+
+    .frame, .foto-about-me {
+        width: 400px;
+        height: 400px;
+    }
+
+    .my-knowledge {
+        width: 65%;
+    }
+
+    .input-name  {
+        margin-right: 0;
+        width: 350px;  
+    }
+
+    .input-mail {
+        margin-bottom: 20px;
+        width: 350px;
+    }
+
+    .input-message {
+        width: 350px;
+    }
+
+    .get-in-touch__description {
+        font-size: 25px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .get-in-touch__text {
+        font-size: 25px;
+    }
 }
     
 

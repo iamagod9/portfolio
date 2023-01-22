@@ -166,6 +166,7 @@ p a {
 }
 
 .who-i-am__text {
+    padding-left: 100px;
     font-size: 20px;
     padding-right: 35px;
     padding-bottom: 60px;
@@ -316,7 +317,7 @@ button:hover img {
     padding-left: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
-    width: 280px;
+    width: 260px;
     height: 50px;
     color: #5F5F5F;
     background-color: #B8B8B8;
@@ -328,7 +329,7 @@ button:hover img {
 
 .input-mail {
     padding-left: 20px;
-    width: 350px;
+    width: 315px;
     height: 50px;
     color: #5F5F5F;
     background-color: #B8B8B8;
@@ -341,7 +342,7 @@ button:hover img {
 .input-message {
     padding-left: 20px;
     margin-bottom: 20px;
-    width: 675px;
+    width: 620px;
     height: 50px;
     color: #5F5F5F;
     background-color: #B8B8B8;
@@ -374,6 +375,10 @@ button:hover img {
 
 .send-message:hover {
     color: #F4FA1A;
+}
+
+.wrapper-get-in-touch {
+    padding-left: 50px;
 }
 
 .get-in-touch__title {
@@ -433,15 +438,15 @@ button:hover img {
    }
 
    .input-name {
-        width: 210px;
+        width: 180px;
    }
 
    .input-mail {
-        width: 265px;
+        width: 252px;
    }
 
    .input-message {
-        width: 520px;
+        width: 480px;
    }
 }
 
@@ -480,6 +485,21 @@ button:hover img {
     }
 }
 
+@media (max-width: 1300px) {
+    .input-name {
+        width: 400px;
+    }
+
+    .input-mail {
+        margin-bottom: 20px;
+        width: 400px;
+    }
+
+    .input-message {
+        width: 400px;
+    }
+}
+
 @media (max-width: 1180px) {
     .foto {
         display: none;
@@ -498,6 +518,37 @@ button:hover img {
 
     .item-short-info-welcome {
         font-size: 35px;
+    }
+
+    .input-name {
+        width: 160px;
+    }
+
+    .input-mail {
+        width: 193px;
+    }
+
+    .input-message {
+        width: 400px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .section-about-me {
+        display: block;
+        height: 100%;
+    }
+
+    .wrapper-about-me, .wrapper-who-i-am {
+        width: 100%;
+    }
+
+    .frame {
+        margin: 0 auto;
+    }
+
+    .who-i-am__btn {
+        margin-bottom: 50px;
     }
 }
 
@@ -583,8 +634,6 @@ button:hover img {
     }
 
     .input-message {
-        margin-left: 100px;
-        margin-right: 100px;
         width: 600px;
     }
 
@@ -604,6 +653,12 @@ button:hover img {
         display: block;
         text-align: center;
     }
+}
+
+@media (max-width: 750px) {
+    .input-name, .input-mail, .input-message {
+        width: 500px;
+        margin-right: 0;
 }
 
 @media (max-width: 600px) {
@@ -649,7 +704,7 @@ button:hover img {
     }
 
     .get-in-touch__text {
-        font-size: 25px;
+        font-size: 25pxgit ;
     }
 }
     

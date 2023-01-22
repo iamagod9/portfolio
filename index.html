@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Портфолио</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./css/reset.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./css/font.css'>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Roboto&family=Roboto+Slab:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="conteiner">
+        <header class="header">
+            <nav class="nav">
+                <div class="logo">
+                    <p class="item-nav black">Порт<span class="color">фолио.</span></p>
+                </div>
+
+                <div class="wrapper-item-nav">
+                    <p class="item-nav black"><a class="item-nav__link" href="index.html">Главная</a></p>
+                    <p class="item-nav black"><a class="item-nav__link" href="#about-me">Обо мне</a></p>
+                    <p class="item-nav black"><a class="item-nav__link" href="#skills">Навыки</a></p>
+                    <p class="item-nav black"><a class="item-nav__link" href="#projects">Проекты</a></p>
+                    <p class="item-nav black"><a class="item-nav__link" href="#contact-me">Контакты</a></p>
+                </div>
+            </nav>
+
+            <div class="wrapper-short-info">
+                <div class="short-info">
+                    <p class="item-short-info-welcome regular">Привет! Меня зовут</p>
+                    <p class="item-short-info-me extrabold">Александр Заскин</p>
+                    <p class="item-short-info-profession regular">Front-end Developer</p>
+                    <button class="js-btn short-info-btn black" type="button">Связаться со мной</button>
+                </div>
+        
+                <div class="my-foto">
+                    <img class="foto" src="./images/me.png">
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <main class="content">
+        <section id="about-me" class="section-about-me">
+            <div class="wrapper-about-me">
+                <h1 class="left-title bold"><span class="border-title">Обо</span> Мне</h1>
+                <div class="frame">
+                    <div class="foto-about-me"></div>
+                </div>
+            </div>
+
+            <div class="wrapper-who-i-am">
+                <h2 class="who-i-am medium">Кто я?</h2>
+                <p class="who-i-am__text regular">Мне 21 год, в свободное время занимаюсь программированием. Впервые я познакомился
+                    с языком программирования в техникуме в 18 лет, это был Pascal. Затем через год
+                    я начал изучать web-разработку и первое, что мне далось сразу и затянуло - это верстка.
+                    С начала этого года я поставил себе цель стать Front-end разработчиком и шаг за шагом я стремлюсь к её реализации.
+                    </p>
+                <button class="who-i-am__btn bold" type="button">Скачать резюме<img class="who-i-am__img" src="./images/download.png"></button>
+            </div>
+        </section>
+        
+        <section id="skills" class="section-skills">
+            <h1 class="title bold">На<span class="border-title">выки</span></h1>
+
+            <div class="wrapper-skills">
+                <div class="skills-info">
+                    <p class="title-skills-info regular">Мои <span class="color">навыки</span> и<span class="color"> опыт.</span></p>
+                    <p class="skills-description regular">Несколько лет назад я сверстал свой первый макет,
+                        это был статичный сайт-визитка, затем через неделю сделал ещё один подобный.
+                        На курсовой проект писал сайт, который в дальнейшем пошёл на дипломный проект. Сайт по продаже пеноблоков,
+                        верстая его, я впервые познакомился с media-запросами и добавил своему сайту адаптивности.
+                        На конечном этапе сайт не имел обширного функционала, мне удалось реализовать: авторизацию/регистрацию, добавление предмета в корзину,
+                        удаление предмета из корзины, рабочую форму для отправки отзыва, админ-панель, где выводились оставленные отзывы.
+
+                        Из других навыков могу отметить коммуникабельность, решительность, ответственность и умение работать в режиме многозадачности.</p>
+                </div>
+
+                <div class="my-knowledge">
+                    <div class="type-of-skill">
+                        <p class="technology regular">HTML</p>
+                        <p class="progress regular">90%</p>
+                    </div>
+
+                    <div class="frame-progressbar">
+                        <div class="progressbar-html"></div>
+                    </div>
+                    
+                    <div class="type-of-skill">
+                        <p class="technology regular">CSS</p>
+                        <p class="progress regular">80%</p>
+                    </div>
+                        
+                    <div class="frame-progressbar">
+                        <div class="progressbar-css"></div>
+                    </div>
+
+                    <div class="type-of-skill">
+                        <p class="technology regular">JavaScript</p>
+                        <p class="progress regular">40%</p>
+                    </div>
+                        
+                    <div class="frame-progressbar">
+                        <div class="progressbar-js"></div>
+                    </div>
+
+                    <div class="type-of-skill">
+                        <p class="technology regular">PHP</p>
+                        <p class="progress regular">40%</p>
+                    </div>
+                        
+                    <div class="frame-progressbar">
+                        <div class="progressbar-php"></div>
+                    </div>
+
+                    <div class="type-of-skill">
+                        <p class="technology regular">MySQL</p>
+                        <p class="progress regular">50%</p>
+                    </div>
+                        
+                    <div class="frame-progressbar">
+                        <div class="progressbar-sql"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section-projects">
+            <h1 class="title bold"><span class="border-title">Прое</span>кты</h1>
+        </section>
+
+        <section id="contact-me" class="section-contact-me">
+            <h1 class="left-title bold">Обратная <span class="border-title">связь</span></h1>
+            <div class="wrapper-contact-me">
+                <div class="message-me">
+                    <h2 class="message-title">Напишите мне</h2>
+                    <div class="contact-form">
+                        <form>
+                            <input required type="text" placeholder="Введите имя: " class="input-name">
+                            <input required type="text" placeholder="Введите почту: " class="input-mail">
+                            <input required type="text" placeholder="Укажите тему обращения: " class="input-message">
+                            <input required type="text" placeholder="Введите сообщение: " class="input-message">
+                            <button class="send-message black">Отправить</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="wrapper-get-in-touch">
+                    <h2 class="get-in-touch__title">Связаться</h2>
+                    <p class="get-in-touch__description">Доступен круглосуточно. Жду ваших предложений</p>
+                    <div class="frame-get-in-touch__text">
+                        <div class="frame-account">
+                            <img src="./images/Account.png">
+                            <p class="get-in-touch__text bold">Alexander Zaskin</p>
+                        </div>
+                        <div class="frame-addres">
+                            <img src="./images/Address.png">
+                            <p class="get-in-touch__text bold">Russia, Kemerovo</p>
+                        </div>
+                        <div class="frame-at-sign">
+                            <img src="./images/At_sign.png">
+                            <p class="get-in-touch__text bold">xe-exe@mail.ru</p>
+                        </div>           
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="copyright bold">Created By <span class="color">MySelf</span> | <img src="./images/Group.png"> 2023 All Right Reserved.</p>
+    </footer>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src='index.js'></script>
+    <script src='./js/scroll.js'></script>
+</body>
+</html>

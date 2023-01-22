@@ -1,0 +1,19 @@
+.regular {
+    font-weight: 400;
+}
+
+.extrabold {
+    font-weight: 800;
+}
+
+.black {
+    font-weight: 900;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.medium {
+    font-weight: 500;
+}

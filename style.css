@@ -312,10 +312,6 @@ button:hover img {
     padding-bottom: 30px;
 }
 
-.wrapper-get-in-touch {
-    width: 50%;
-}
-
 .input-name {
     padding-left: 20px;
     margin-right: 20px;
@@ -427,12 +423,61 @@ button:hover img {
     .item-short-info-me {
         font-size: 60px;
    }
+
+   .skills-description {
+        font-size: 18px;
+   }
+
+   .my-knowledge {
+        line-height: 66px;
+   }
+
+   .input-name {
+        width: 210px;
+   }
+
+   .input-mail {
+        width: 265px;
+   }
+
+   .input-message {
+        width: 520px;
+   }
 }
 
 @media (max-width: 1370px) {
     .item-short-info-me {
         font-size: 50px;
    }
+
+   .foto-about-me, .frame {
+        width: 350px;
+        height: 350px;
+   }
+
+   .who-i-am__text {
+        font-size: 18px;
+   }
+
+    .input-name {
+        width: 180px;
+    }
+
+    .input-mail {
+        width: 235px;
+    }
+
+    .input-message {
+        width: 460px;
+    }
+
+    .get-in-touch__description {
+        font-size: 18px;
+    }
+
+    .get-in-touch__text {
+        font-size: 18px;
+    }
 }
 
 @media (max-width: 1180px) {
@@ -459,6 +504,119 @@ button:hover img {
 @media (max-width: 910px) {
     .item-nav a {
         display: none;
+    }
+
+    .section-about-me {
+        display: block;
+        height: 100%;
+    }
+
+    .foto-about-me {
+        width: 450px;
+        height: 450px;
+    }
+
+    .frame {
+        margin: 0 auto;
+        width: 450px;
+        height: 450px;
+    }
+
+    .wrapper-who-i-am, .wrapper-about-me {
+        text-align: center;
+        width: 100%;
+    }
+
+    .who-i-am__text, .skills-description {
+        font-size: 25px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .wrapper-skills {
+        display: block;
+    }
+
+    .skills-info {
+        text-align: center;
+        padding-left: 0;
+        width: 100%;
+    }
+
+    .who-i-am__btn {
+        margin-bottom: 100px;
+    }
+    
+    .my-knowledge {
+        padding-left: 100px;
+        padding-right: 0;
+        width: 75%;
+        text-align: center;
+        font-size: 25px;  
+    }
+
+    .section-contact-me {
+        height: 100%;
+    }
+
+    .wrapper-contact-me {
+        display: block;
+    }
+
+    .message-me {
+        width: 100%;
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .left-title {
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .input-name {
+        width: 250px;
+    }
+
+    .input-mail {
+        width: 303px;
+    }
+
+    .input-message {
+        margin-left: 100px;
+        margin-right: 100px;
+        width: 600px;
+    }
+
+    .send-message {
+        margin-bottom: 100px;
+    }
+
+    .get-in-touch__description {
+        padding-right: 0;
+    }
+
+    .frame-account, .frame-addres, .frame-at-sign {
+        margin-left: 100px;
+    }
+
+    .wrapper-get-in-touch {
+        display: block;
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .item-short-info-welcome {
+        font-size: 24px;
+    }
+
+    .item-short-info-me {
+        font-size: 42px;
+    }
+
+    .item-short-info-profession {
+        font-size: 30px;
     }
 }
     

@@ -8,6 +8,7 @@
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='./css/reset.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='./css/font.css'>
+    <link rel="stylesheet" type='text/css' media='screen' href="./css/dropdown.css">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,6 +28,17 @@
                     <p class="item-nav black"><a class="item-nav__link" href="#skills">Навыки</a></p>
                     <p class="item-nav black"><a class="item-nav__link" href="#projects">Проекты</a></p>
                     <p class="item-nav black"><a class="item-nav__link" href="#contact-me">Контакты</a></p>
+                </div>
+
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn black">Меню</button>
+                    <div id="myDropdown" class="dropdown-content black">
+                        <a href="index.html">Главная</a>
+                        <a href="#about-me">Обо мне</a>
+                        <a href="#skills">Навыки</a>
+                        <a href="#projects">Проекты</a>
+                        <a href="#contact-me">Контакты</a>
+                    </div>
                 </div>
             </nav>
 
@@ -179,5 +191,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script src='index.js'></script>
     <script src='./js/scroll.js'></script>
+    <script src="./js/dropdown.js"></script>
 </body>
 </html>

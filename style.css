@@ -71,7 +71,7 @@ p a {
 }
 
 .item-short-info-me {
-    font-size: 74px;
+    font-size: 70px;
     color: #FFFFFF;
 }
 
@@ -422,3 +422,45 @@ button:hover img {
     font-size: 20px;
     color: #FFFFFF;
 }
+
+@media (max-width: 1560px) {
+    .item-short-info-me {
+        font-size: 60px;
+   }
+}
+
+@media (max-width: 1370px) {
+    .item-short-info-me {
+        font-size: 50px;
+   }
+}
+
+@media (max-width: 1180px) {
+    .foto {
+        display: none;
+    }
+
+    .short-info {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .wrapper-short-info {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+
+    .item-short-info-welcome {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 910px) {
+    .item-nav a {
+        display: none;
+    }
+}
+    
+
+

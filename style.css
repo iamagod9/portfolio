@@ -659,6 +659,7 @@ button:hover img {
     .input-name, .input-mail, .input-message {
         width: 500px;
         margin-right: 0;
+    }
 }
 
 @media (max-width: 600px) {
@@ -707,6 +708,3 @@ button:hover img {
         font-size: 25pxgit ;
     }
 }
-    
-
-
